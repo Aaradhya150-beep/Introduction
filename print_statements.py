@@ -1,4 +1,9 @@
 #printing my first statement
-print("hi")
-print(2)
-print("nice to meet", end=" you")
+print("Hello")
+
+print(25)
+
+print("hi", 5)
+
+print("hiiiiiii", end= "$")
+
