@@ -1,0 +1,11 @@
+x = 5
+y = "Hi"
+
+print(x)
+print(y)
+
+codingal = "Hello"
+print(codingal)
+
+name = input("Enter your name: ")
+print("Hello", name, "\n")
