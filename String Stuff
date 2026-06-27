@@ -1,0 +1,19 @@
+name = "Aaradhya"
+
+print(name[4])
+
+print(name[0:4])
+
+lastname = "Chidurala"
+
+print(name + " " + lastname)
+
+print(name.lower())
+print(lastname.upper())
+
+
+num1 = 13.5
+
+print(str(num1))
+
+print("The Data type of num1 is: ", type(num1))
