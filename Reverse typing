@@ -1,0 +1,6 @@
+name = str(input("Enter your name: "))
+
+revText = name[::-1]
+name = revText
+
+print("Your name in reverse is: ", name)
