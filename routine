@@ -1,0 +1,17 @@
+print("My Daily Routine")
+
+print("I wake up at around 9:30 AM.")
+
+print("I eat breakfast at around 10:00 AM.")
+
+print("I study for 1 hour and 30 minutes.")
+
+print("I eat lunch at around 1:00 PM.")
+
+print("I play outside with my friends for a while in the evening.")
+
+print("I eat dinner at around 9:00 PM.")
+
+print("I go to bed at around 10:00 PM.")
+
+print("Total study hours in a week:", 1.5 * 7, "hours.")
