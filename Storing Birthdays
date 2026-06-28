@@ -1,0 +1,17 @@
+Joe = "04/23/2013"
+
+Timmy = "01/31/2013"
+
+Bean = "12/02/2012"
+
+Lily = "10/28/2012"
+
+Bob = "02/11/2013"
+
+print("\nThe birthdays of Raj's friends:")
+print("-------------------------------")
+print("Joe:", Joe)
+print("Timmy:", Timmy)
+print("Bean:", Bean)
+print("Lily:", Lily)
+print("Bob:", Bob)
