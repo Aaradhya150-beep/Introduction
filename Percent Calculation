@@ -1,0 +1,11 @@
+print("Enter your grades for the following subjects (without the '%'):")
+math = int(input("Math: "))
+science = int(input("Science: "))
+english = int(input("English: "))
+hindi = int(input("Hindi: "))
+
+total = math + science + english + hindi
+
+average_p = total / 4
+
+print("The average percentage you got is:", average_p,"%")
