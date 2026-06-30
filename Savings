@@ -1,0 +1,36 @@
+print("Enter your savings for 7 days:")
+
+d1 = int(input("Day 1: "))
+d2 = int(input("Day 2: "))
+d3 = int(input("Day 3: "))
+d4 = int(input("Day 4: "))
+d5 = int(input("Day 5: "))
+d6 = int(input("Day 6: "))
+d7 = int(input("Day 7: "))
+
+total = d1 + d2 + d3 + d4 + d5 +d6 +d7
+
+average = total /7
+
+print("Your total savings for the week is: $", total)
+print("Your average savings for the week is: $", average)
+
+note_200 = total // 200
+remaining = total % 200
+
+note_100 = remaining // 100
+remaining %= 100
+
+note_50 = remaining // 50
+remaining %= 50
+
+note_10 = remaining // 10
+remaining %= 10
+
+note_1 = remaining // 1
+
+print("The number of 200 dollar notes you will receive are:", note_200)
+print("The number of 100 dollar notes you will receive are:", note_100)
+print("The number of 50 dollar notes you will receive are:", note_50)
+print("The number of 10 dollar notes you will receive are:", note_10)
+print("The number of 1 dollar notes you will receive are:", note_1)
