@@ -1,0 +1,5 @@
+con_message = input("Enter your congratulations message: ")
+
+print(con_message.upper())
+
+
