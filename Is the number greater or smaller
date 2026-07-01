@@ -1,0 +1,13 @@
+i = int(input("Enter a number: "))
+t = int(input("Enter another number: "))
+
+if i > t:
+    print(i, "is greater than", t)
+    print("This is the if block.")
+elif i < t:
+    print(i, "is smaller than", t)
+    print("This is the elif block.")
+else:
+    print(i, "is equal to", t)
+    print("This is the else block.")
+print("This is not in the if, elif, or else block.")
