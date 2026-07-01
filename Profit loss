@@ -1,0 +1,11 @@
+actual_cost = float(input("Enter the original product cost: "))
+sales_price = float(input("Enter the sale price of the product:"))
+
+if sales_price > actual_cost:
+    profit = sales_price - actual_cost
+    print("The profit is:", format(profit, '.2f'))
+elif sales_price < actual_cost:
+    loss = actual_cost - sales_price
+    print("You lost:", format(loss, '.2f'))
+else:
+    print("You earned 0 profit!")
