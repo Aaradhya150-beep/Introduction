@@ -1,0 +1,9 @@
+wallet = float(input("Enter the amount of money you have in your wallet: "))
+price = float(input("Enter the price: "))
+
+if wallet >= price:
+    print("You can buy this item.")
+    print("Purchase successful!")
+    print("You now have $",wallet - price, "left.")
+else:
+    print("You do not have enough money to buy this item.")
