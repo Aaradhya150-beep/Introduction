@@ -1,0 +1,6 @@
+fire = input("Is there a fire that is not supposed to be there?: ")
+
+if fire.lower() == "yes":
+    print("Call the fire brigade immediately!")
+else:
+    print("No need to call the fire brigade.")
