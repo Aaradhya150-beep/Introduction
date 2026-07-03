@@ -1,0 +1,22 @@
+a = 5
+b = 10
+c = 0
+
+if a and b and c:
+    print("They all have a value of True.")
+else:
+    print("At least one of them has a value of False.")
+
+a = 15
+b = -23
+c = 0
+
+if a > 0 or b > 0:
+    print("At least one of the numbers is positive.")
+else:
+    print("Both numbers are not greater than zero.")
+
+if b > 0 or c > 0:
+    print("At least one of the numbers is positive.")
+else:
+    print("Both numbers are not greater than zero.")
