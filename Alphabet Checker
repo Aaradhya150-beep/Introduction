@@ -1,0 +1,6 @@
+value = input("Enter a character to check if it is part of the alphabet or not: ")
+
+if value not in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    print(value, "is not part of the alphabet.")
+else:
+    print(value, "is part of the alphabet.")
